@@ -17,7 +17,7 @@ let abi = ABI
 const contractAddress = "0x7d9Ba5b5601518da20A0337208b2d7dA0AFc8585"  
 const wavaxAddress = "0xd00ae08403B9bbb9124bB305C09058E32C39A48c"
 
-const calcFeeData = async (
+/* const calcFeeData = async (
   maxFeePerGas = undefined,
   maxPriorityFeePerGas = undefined
 ) => {
@@ -37,7 +37,7 @@ const calcFeeData = async (
     maxFeePerGas: maxFeePerGas.toString(),
     maxPriorityFeePerGas: maxPriorityFeePerGas.toString(),
   }
-}
+} */
 
 function Index() {
   const [web3, setWeb3] = useState(null)
